@@ -9,7 +9,7 @@
 
 ## 2.1 Percobaan 1: Deklarasi Class, Atribut, dan Method
 
-![Screenshot](error.png)
+![Screenshot](img/error.png)
 
 1. **Sebutkan dua karakteristik class atau object!**
    - Class merupakan blueprint atau cetak biru dari sebuah entitas nyata. Di dalamnya terdapat atribut dan metode, termasuk metode khusus yang disebut konstruktor.
@@ -32,11 +32,11 @@
 
 ## 2.2 Percobaan 2: Instansiasi Object, serta Mengakses Atribut dan Method
 
-![Screenshot](2.png)
+![Screenshot](img/2.png)
 
 ### **2.2.3 Pertanyaan**
 1. **. Pada class MahasiswaMain, tunjukkan baris kode program yang digunakan untuk proses instansiasi! Apa nama object yang dihasilkan?**
-   - `mhs1` ![Screenshot](3.png)
+   - `mhs1` ![Screenshot](img/3.png)
 2. **Bagaimana cara mengakses atribut dan method dari suatu objek?**
    - **Atribut:** Gunakan `objek.nama_atribut`
    - **Method:** Panggil dengan `objek.method()`
@@ -47,7 +47,7 @@
 
 ## 2.3 Percobaan 3: Membuat Konstruktor
 
-![Screenshot](4.png)
+![Screenshot](img/4.png)
 
 ### **Fungsi Mahasiswa02 Secara Keseluruhan**
 1. Menampilkan data mahasiswa menggunakan metode `tampilkanInformasi()`.
@@ -57,22 +57,22 @@
 
 ### **2.3.3 Pertanyaan**
 1. **. Pada class Mahasiswa di Percobaan 3, tunjukkan baris kode program yang digunakan untuk mendeklarasikan konstruktor berparameter!**
-   ![Screenshot](5.png)
+   ![Screenshot](img/5.png)
 2. **Perhatikan class MahasiswaMain. Apa sebenarnya yang dilakukan pada baris program berikut?**
    - Pada baris program tersebut, objek `mhs2` dibuat dengan memanfaatkan konstruktor yang memiliki parameter.
 3. **Hapus konstruktor default pada class Mahasiswa, kemudian compile dan run program. Bagaimana hasilnya? Jelaskan mengapa hasilnya demikian!**
-   - Bisa, karena di `MahasiswaMain02` terdapat konstruktor tanpa parameter. ![Screenshot](6.png)
+   - Bisa, karena di `MahasiswaMain02` terdapat konstruktor tanpa parameter. ![Screenshot](img/6.png)
 4. **Setelah melakukan instansiasi object, apakah method di dalam class Mahasiswa harus diakses secara berurutan? Jelaskan alasannya!**
    - Tidak, karena dalam Java, method akan dieksekusi berdasarkan urutan pemanggilan yang ditentukan di dalam `main()`, bukan berdasarkan posisi di dalam class.
 5. **Buat object baru dengan nama mhs<NamaMahasiswa> menggunakan konstruktor berparameter dari class Mahasiswa!**
-   ![Screenshot](7.png)
+   ![Screenshot](img/7.png)
 
 ---
 
 ## 2.4 Latihan Praktikum
 
 ### **1. Class MataKuliah02**
-![Screenshot](8.png)
+![Screenshot](img/8.png)
 
 **Fungsi MataKuliah01 Secara Keseluruhan:**
 1. Menampilkan detail mata kuliah menggunakan metode `tampilInformasi()`.
@@ -81,7 +81,7 @@
 4. Mengurangi jam pertemuan menggunakan metode `kurangiJam()`,  dengan validasi agar nilai jam tidak negatif.
 
 ### **2. Class Dosen02**
-![Screenshot](9.png)
+![Screenshot](img/9.png)
 
 **Fungsi Dosen01 Secara Keseluruhan:**
 1. Metode `tampilInformasi()` digunakan untuk menampilkan profil dosen.
