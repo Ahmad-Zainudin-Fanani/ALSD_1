@@ -16,7 +16,7 @@ public class matakuliah02 {
     }
 
     void tampilkanInformasi() {
-        System.out.println("Nama       : " + nama);
+        System.out.println("Nama Mata Kuliah: " + nama);
         System.out.println("Kode MK    : " + kodeMK);
         System.out.println("sks        : " + sks);
         System.out.println("Jumlah jam : " + jumlahjam);
@@ -24,7 +24,7 @@ public class matakuliah02 {
 
     void ubahSKS(int sksBaru) {
         sks = sksBaru;
-        System.out.println("sks telah diubah");
+        System.out.println("sks telah diubah menjadi    " + sks);
     }
 
     void tambahJam(int jam) {

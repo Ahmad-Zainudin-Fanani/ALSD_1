@@ -49,7 +49,7 @@
 
 ![Screenshot](4.png)
 
-### **Fungsi Mahasiswa01 Secara Keseluruhan**
+### **Fungsi Mahasiswa02 Secara Keseluruhan**
 1. Menampilkan data mahasiswa menggunakan metode `tampilkanInformasi()`.
 2. Mengganti kelas mahasiswa melalui metode `ubahKelas()`.
 3. Memperbarui IPK dengan memastikan nilainya tetap dalam rentang 0.0 - 4.0 menggunakan metode `updateIpk()`.
@@ -61,7 +61,7 @@
 2. **Perhatikan class MahasiswaMain. Apa sebenarnya yang dilakukan pada baris program berikut?**
    - Pada baris program tersebut, objek `mhs2` dibuat dengan memanfaatkan konstruktor yang memiliki parameter.
 3. **Hapus konstruktor default pada class Mahasiswa, kemudian compile dan run program. Bagaimana hasilnya? Jelaskan mengapa hasilnya demikian!**
-   - Bisa, karena di `MahasiswaMain01` terdapat konstruktor tanpa parameter. ![Screenshot](6.png)
+   - Bisa, karena di `MahasiswaMain02` terdapat konstruktor tanpa parameter. ![Screenshot](6.png)
 4. **Setelah melakukan instansiasi object, apakah method di dalam class Mahasiswa harus diakses secara berurutan? Jelaskan alasannya!**
    - Tidak, karena dalam Java, method akan dieksekusi berdasarkan urutan pemanggilan yang ditentukan di dalam `main()`, bukan berdasarkan posisi di dalam class.
 5. **Buat object baru dengan nama mhs<NamaMahasiswa> menggunakan konstruktor berparameter dari class Mahasiswa!**
@@ -71,5 +71,20 @@
 
 ## 2.4 Latihan Praktikum
 
-### **1. Class MataKuliah01**
+### **1. Class MataKuliah02**
+![Screenshot](8.png)
+
+**Fungsi MataKuliah01 Secara Keseluruhan:**
+1. Menampilkan detail mata kuliah menggunakan metode `tampilInformasi()`.
+2. Mengupdate jumlah SKS melalui metode `ubahSKS()`.
+3. Menambah durasi jam pertemuan dengan metode `tambahJam()`.
+4. Mengurangi jam pertemuan menggunakan metode `kurangiJam()`,  dengan validasi agar nilai jam tidak negatif.
+
+### **2. Class Dosen02**
 ![Screenshot](9.png)
+
+**Fungsi Dosen01 Secara Keseluruhan:**
+1. Metode `tampilInformasi()` digunakan untuk menampilkan profil dosen.
+2. Status aktif dosen dapat diperbarui dengan metode `setStatusAktif()`.
+3. Metode `hitungMasaKerja()` berfungsi untuk menghitung lama pengabdian dosen berdasarkan tahun saat ini.
+4. Perubahan bidang keahlian dosen dapat dilakukan melalui metode `ubahKeahlian()`.
