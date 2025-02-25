@@ -1,7 +1,7 @@
-public class MataKuliahMain02 {
+public class mataKuliahMain02 {
 
     public static void main(String[] args) {
-        Matakuliah02 matkul1 = new Matakuliah02();
+        matakuliah02 matkul1 = new matakuliah02();
         matkul1.kodeMK = "1H";
         matkul1.nama = "Dasar pemrograman";
         matkul1.sks = 4;
@@ -13,7 +13,7 @@ public class MataKuliahMain02 {
         matkul1.kurangiJam(3);
         matkul1.tampilkanInformasi();
         
-        Matakuliah02 matkul2 = new Matakuliah02("1G", "Algoritma dan struktur data" , 4, 3);
+        matakuliah02 matkul2 = new matakuliah02("1G", "Algoritma dan struktur data" , 4, 3);
 
         matkul2.tampilkanInformasi();
         matkul2.ubahSKS(6);

@@ -1,14 +1,14 @@
-public class Matakuliah02 {
+public class matakuliah02 {
     String kodeMK;
     String nama;
     int sks;
     int jumlahjam;
 
-    public Matakuliah02(){
+    public matakuliah02(){
         
     }
 
-    public Matakuliah02(String kodeMK, String nama, int sks, int jumlahjam) {
+    public matakuliah02(String kodeMK, String nama, int sks, int jumlahjam) {
         this.kodeMK = kodeMK;
         this.nama = nama;
         this.sks = sks;
