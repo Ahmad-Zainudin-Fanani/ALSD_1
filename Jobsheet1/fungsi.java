@@ -1,3 +1,4 @@
+package Jobsheet1;
 public class fungsi {
 
     // Harga per jenis bunga

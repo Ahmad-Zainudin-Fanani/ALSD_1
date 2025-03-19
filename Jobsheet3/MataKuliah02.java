@@ -1,3 +1,4 @@
+package Jobsheet3;
 import java.util.Scanner;
 public class MataKuliah02 {
     public String kode;

@@ -1,3 +1,4 @@
+package Jobsheet2;
 public class Dosen02 {
     String idDosen, bidangKeahlian, nama;
     int tahunBergabung;
