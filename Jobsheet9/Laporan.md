@@ -6,6 +6,10 @@
 | **Repository** | [GitHub Repository](https://github.com/Ahmad-Zainudin-Fanani/ALSD_1)
 
 # Jobsheet 9
+#### 2.1.1 Langkah-langkah Percobaan
+![Screenshot](img/1.png)
+![Screenshot](img/2.png)
+![Screenshot](img/3.png)
 
 #### 2.1.3 Pertanyaan
 1. **Lakukan perbaikan pada kode program, sehingga keluaran yang dihasilkan sama dengan verifikasi hasil percobaan! Bagian mana yang perlu diperbaiki?**
@@ -29,8 +33,9 @@
 3. **Mengapa perlu pengecekan kondisi !isFull() pada method push? Kalau kondisi if-else tersebut dihapus, apa dampaknya?**
 - Pengecekan !isFull() pada method push() penting untuk mencegah penambahan data saat stack penuh. Tanpa pengecekan ini, program bisa error karena mengakses indeks di luar batas array.
 4. **Modifikasi kode program pada class MahasiswaDemo dan StackTugasMahasiswa sehingga pengguna juga dapat melihat mahasiswa yang pertama kali mengumpulkan tugas melalui operasi lihat tugas terbawah!**
+![Screenshot](img/4.png)
 -
- 1. Modifikasi MahasiswaDemo02.java
+1. Modifikasi MahasiswaDemo02.java
 ```java
 //Tambahan bagian menu
 System.out.println("5. Melihat tugas Terbawah");
@@ -60,6 +65,8 @@ case 5:
 ```
 
 5. **Tambahkan method untuk dapat menghitung berapa banyak tugas yang sudah dikumpulkan saat ini, serta tambahkan operasi menunya!**
+![Screenshot](img/5.png)
+
 ```java
     //Menghitung berapa banyak tugas yang sudah dikumpulkan
     public int count() {
@@ -71,3 +78,5 @@ case 5:
     //Update batas perulangan do-while
     } while (pilih >= 1 && pilih <= 6);
 ```
+
+#### 2.2.1 Langkah-langkah Percobaan
