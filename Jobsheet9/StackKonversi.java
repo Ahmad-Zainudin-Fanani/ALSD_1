@@ -17,7 +17,7 @@ public class StackKonversi {
         return top == size -1;
     }
     public void push(int data) {
-        if (isEmpety()) {
+        if (isFull()) {
             System.out.println("Stack penuh");
         } else {
             top++;
