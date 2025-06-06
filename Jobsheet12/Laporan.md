@@ -7,9 +7,10 @@
 
 # Jobsheet 12
 
-#### Percobaan 1
+#### 12.2.1 Percobaan 1 
 
-![Screenshot](1.png)
+![Screenshot](img/1.png)
+
 
 ### **12.2.3 Pertanyaan Percobaan**
 
@@ -24,26 +25,40 @@
 5. **Perhatikan pada method addFirst(). Apakah arti statement head.prev = newNode ?**
 - Menghubungkan pointer prev dari head ke node baru yang ditambahkan.
 6. **Modifikasi code pada fungsi print() agar dapat menampilkan warning/ pesan bahwa linked lists masih dalam kondisi.**
-- 
+```java
+    if (isEmpty()) {
+         System.out.println("Linked List Kosong");
+   }
+```
 7. **Pada insertAfter(), apa maksud dari kode berikut ?**
 - Node setelah current dihubungkan ke node baru melalui pointer prev.
 8. **Modifikasi menu pilihan dan switch-case agar fungsi insertAfter() masuk ke dalam menu pilihan dan dapat berjalan dengan baik.**
-- 
+```java
+   case 4:
+    System.out.print("Tambah data setelah NIM: ");
+    String key = scan.nextLine();
+    list.insertAfter(key, inputMahasiswa());
+    size++;
+    break;
+```
 
 ---
 
 ## 2.2 Modifikasi Elemen pada Single Linked List
 
-![Screenshot](5.png)
+![Screenshot](img/2.png)
 
 ### **2.2.3 Pertanyaan**
 
 1. **Mengapa digunakan keyword break pada fungsi remove? Jelaskan!**
 - Supaya kode setelahnya tidak dieksekusi ketika kondisi if telah terpenuhi.
-2. **Jelaskan kegunaan kode dibawah pada method remove**
-- Jika node sesudah temp bernilai null, maka temp ditetapkan sebagai tail; jika tidak, node setelah temp diganti dengan node selanjutnya lagi.
+2. **Modifikasi kode program untuk menampilkan pesan “Data sudah berhasil dihapus. Data yang terhapus adalah … “**
+![Screenshot](img/3.png)
+![Screenshot](img/4.png)
 
 ---
 
 ## 3. Tugas
-
+![Screenshot](img/5.png)
+![Screenshot](img/6.png)
+![Screenshot](img/7.png)
